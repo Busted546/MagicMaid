@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.maid">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".front"><intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
+        <activity android:name=".how_to_use" />
+        <activity android:name=".Feedback"></activity>
+        <activity android:name=".MaidFeatures" />
+        <activity android:name=".user_contact" />
+        <activity android:name=".about_us" />
+        <activity android:name=".MaidRegister" />
+        <activity android:name=".MaidHomePanel" />
+        <activity android:name=".MaidLogin" />
+        <activity android:name=".UserSelectWork"/>
+        <activity android:name=".adminHome" />
+        <activity android:name=".adminlogin" />
+        <activity android:name=".adminMain" />
+        <activity android:name=".user_after_log" />
+        <activity android:name=".user_up_del" />
+        <activity android:name=".user_search" />
+        <activity android:name=".user_panel" />
+        <activity android:name=".user_reg" />
+        <activity android:name=".user_log">
+
+        </activity>
+    </application>
+
+</manifest>

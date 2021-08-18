@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".how_to_use">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-thin"
+        android:padding="8dp"
+        android:textColor="@color/grey1"
+        android:textSize="45sp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="How to use !" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="HEY THERE,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                This app is really very easy to run, just get yourself registered,simply login with given username and password and then select your state,city and locality and then select the work you want to get done. you will be provided with list of Maids. Just select the maid and get your work done."
+     />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

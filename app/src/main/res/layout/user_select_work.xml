@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserSelectWork">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="98dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="15dp"
+        android:fontFamily="serif-monospace"
+        android:text="Now, Select the Work to be done by Maid"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkBox13"
+            android:layout_width="207dp"
+            android:layout_height="151dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginTop="5dp"
+            android:buttonTint="@color/colorPrimary"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/images"
+
+
+            android:text="MOPING" />
+
+        <CheckBox
+            android:id="@+id/checkBox14"
+            android:buttonTint="@color/colorPrimary"
+            android:layout_width="207dp"
+            android:layout_height="151dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/dishwash"
+            android:text="DISH WASHING" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkBox15"
+            android:layout_width="207dp"
+            android:layout_height="151dp"
+            android:buttonTint="@color/colorPrimary"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/brooming"
+            android:text="BROOMING" />
+
+        <CheckBox
+            android:id="@+id/checkBox16"
+            android:layout_width="207dp"
+            android:layout_height="151dp"
+            android:layout_marginLeft="10dp"
+            android:buttonTint="@color/colorPrimary"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/washing"
+            android:text="CLOTHS WASHING" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkBox17"
+            android:layout_width="207dp"
+            android:layout_height="151dp"
+            android:layout_marginLeft="10dp"
+            android:buttonTint="@color/colorPrimary"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/cooking1"
+            android:text="COOKING" />
+
+        <CheckBox
+            android:id="@+id/checkBox18"
+            android:layout_width="207dp"
+            android:layout_height="151dp"
+            android:layout_marginLeft="10dp"
+            android:buttonTint="@color/colorPrimary"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/dusting"
+            android:text="DUSTING" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="70dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:text="Search" />
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
